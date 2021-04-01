@@ -112,6 +112,17 @@
       "contato": "(81) 99999-9999",
       "vacinado": false,
       "servicos": []
+    },
+    {
+      "nome": "Sibele",
+      "tipo": "pássaro",
+      "idade": 4,
+      "raca": "??",
+      "peso": 0.3,
+      "tutor": "Beto",
+      "contato": "(81) 99999-9999",
+      "vacinado": false,
+      "servicos": []
     }
   ]
 }
