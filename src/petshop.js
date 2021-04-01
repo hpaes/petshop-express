@@ -1,8 +1,8 @@
 const moment = require('moment');
 const fs = require('fs');
+const app = require('.');
 
-let bancoDados = fs.readFileSync('../database.json');
-
+let bancoDados = fs.readFileSync('./database.json');
 bancoDados = JSON.parse(bancoDados);
 
 const petshop = {
@@ -11,18 +11,18 @@ const petshop = {
     fs.writeFileSync('database.json', petsAtualizado, 'utf-8');
   },
   listarPets: () => {
+    let textoListaPets = 'PETSHOP \n';
     bancoDados.pets.forEach((pet) => {
-      let { nome, idade, tipo, raca, vacinado } = pet;
-      console.log(
-        `${nome}, ${idade}, ${tipo}, ${raca}, ${
-          vacinado ? 'vacinado' : 'não vacinado'
-        }`
-      );
+      textoListaPets += `${pet.nome}, ${pet.idade} anos, ${pet.tipo}, ${
+        pet.raca
+      }, ${pet.vacinado ? 'vacinado' : 'não vacinado'} \n`;
+
+      pet.servicos.forEach((servico) => {
+        textoListaPets += `${servico.data} - ${servico.nome}\n`;
+      });
     });
 
-    for (const servico of pet.servicos) {
-      console.log(`${servico.data} - ${servico.nome}`);
-    }
+    return textoListaPets;
   },
   vacinarPet: (pet) => {
     if (!pet.vacinado) {
@@ -53,7 +53,6 @@ const petshop = {
       bancoDados.pets.push(novoPet);
     });
 
-    atualizarBanco();
     novosPets.forEach((pet) => {
       console.log(`${pet.nome} foi adicionado com sucesso!`);
     });
@@ -91,9 +90,7 @@ const petshop = {
     let foundPet = bancoDados.pets.find((pet) => {
       return pet.nome == nomePet;
     });
-    return foundPet
-      ? foundPet
-      : `Desculpe, ${nomePet} não foi encontrado no sistema`;
+    return foundPet;
   },
   filtrarPet: (petEspecie) => {
     let petsEncontrados = bancoDados.pets.filter((pet) => {

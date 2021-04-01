@@ -1,73 +1,116 @@
 {
   "pets": [
     {
-      "nome": "Caramelo",
-      "especie": "felis catus",
+      "nome": "Costelinha",
+      "tipo": "cachorro",
+      "idade": 5,
+      "raca": "Vira-lata",
+      "peso": 3,
+      "tutor": "Doug",
+      "contato": "(11) 98899-4545",
+      "vacinado": true,
+      "servicos": [
+        { "nome": "banho", "data": "29-03-2021" },
+        { "nome": "banho", "data": "29-03-2021" }
+      ]
+    },
+    {
+      "nome": "Snoopy",
+      "tipo": "cachorro",
+      "idade": 13,
+      "raca": "Beagle",
+      "peso": 5,
+      "tutor": "Charlie Brown",
+      "contato": "(11) 95656-4545",
+      "vacinado": true,
+      "servicos": [{ "nome": "banho", "data": "29-03-2021" }]
+    },
+    {
+      "nome": "Satanas",
       "tipo": "gato",
-      "idade": 7,
-      "raca": "SRD",
-      "peso": 5.8,
-      "contato": "(81) 98888-4241",
-      "tutor": "Beto",
+      "idade": 5,
+      "raca": "Vira-lata",
+      "peso": 3,
+      "tutor": "Bruxa do 71",
+      "contato": "(11) 97171-7171",
       "vacinado": true,
       "servicos": []
     },
     {
-      "nome": "Joaquim",
-      "especie": "canis lupus familiaris",
-      "tipo": "cão",
+      "nome": "Ada",
+      "tipo": "cachorro",
+      "idade": 1,
+      "raca": "Vira-lata",
+      "peso": 18,
+      "tutor": "Pedro",
+      "contato": "(11) 98899-4545",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Pedrita",
+      "tipo": "cachorro",
       "idade": 10,
+      "raca": "Pastor Alemão",
+      "peso": 18,
+      "tutor": "João",
+      "contato": "(11) 98899-9999",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Romarinho",
+      "tipo": "cachorro",
+      "idade": 3,
+      "raca": "American",
+      "peso": 28,
+      "tutor": "Bruno",
+      "contato": "(11) 99999-9999",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Bidu",
+      "tipo": "gato",
+      "idade": 3,
+      "raca": "American",
+      "peso": 28,
+      "tutor": "Doug",
+      "contato": "(11) 99999-9999",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Eva",
+      "tipo": "gato",
+      "idade": 3,
+      "raca": "American",
+      "peso": 28,
+      "tutor": "Hendy",
+      "contato": "(11) 99999-9999",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Tag",
+      "tipo": "gato",
+      "idade": 3,
+      "raca": "American",
+      "peso": 28,
+      "tutor": "Doug",
+      "contato": "(11) 99999-9999",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Caramelo",
+      "tipo": "gato",
+      "idade": 8,
       "raca": "SRD",
-      "peso": 16,
-      "contato": "(81) 94123-4151",
-      "tutor": "José",
-      "vacinado": true,
-      "servicos": []
-    },
-    {
-      "nome": "Eriberto",
-      "especie": "canis lupus familiaris",
-      "tipo": "cão",
-      "idade": 11,
-      "raca": "SRD",
-      "peso": 12,
-      "contato": "(81) 94123-4151",
-      "tutor": "José",
-      "vacinado": true,
-      "servicos": []
-    },
-    {
-      "nome": "Maria",
-      "especie": "canis lupus familiaris",
-      "tipo": "Cão",
-      "idade": 1,
-      "raca": "Vira-lata",
-      "peso": 18,
-      "contato": "(81) 98288-4241",
-      "tutor": "José",
-      "vacinado": true,
-      "servicos": []
-    },
-    {
-      "nome": "Josefa",
-      "tipo": "Cachorro",
-      "idade": 1,
-      "raca": "Vira-lata",
-      "peso": 18,
-      "contato": "(81) 98288-4241",
-      "tutor": "José",
-      "vacinado": true,
-      "servicos": []
-    },
-    {
-      "nome": "Jacinta",
-      "tipo": "Cachorro",
-      "idade": 1,
-      "raca": "Vira-lata",
-      "peso": 18,
-      "contato": "(81) 98288-4241",
-      "tutor": "José",
-      "vacinado": true,
+      "peso": 14,
+      "tutor": "Beto",
+      "contato": "(81) 99999-9999",
+      "vacinado": false,
       "servicos": []
     }
   ]
