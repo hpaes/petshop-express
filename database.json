@@ -1,0 +1,74 @@
+{
+  "pets": [
+    {
+      "nome": "Caramelo",
+      "especie": "felis catus",
+      "tipo": "gato",
+      "idade": 7,
+      "raca": "SRD",
+      "peso": 5.8,
+      "contato": "(81) 98888-4241",
+      "tutor": "Beto",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Joaquim",
+      "especie": "canis lupus familiaris",
+      "tipo": "cão",
+      "idade": 10,
+      "raca": "SRD",
+      "peso": 16,
+      "contato": "(81) 94123-4151",
+      "tutor": "José",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Eriberto",
+      "especie": "canis lupus familiaris",
+      "tipo": "cão",
+      "idade": 11,
+      "raca": "SRD",
+      "peso": 12,
+      "contato": "(81) 94123-4151",
+      "tutor": "José",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Maria",
+      "especie": "canis lupus familiaris",
+      "tipo": "Cão",
+      "idade": 1,
+      "raca": "Vira-lata",
+      "peso": 18,
+      "contato": "(81) 98288-4241",
+      "tutor": "José",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Josefa",
+      "tipo": "Cachorro",
+      "idade": 1,
+      "raca": "Vira-lata",
+      "peso": 18,
+      "contato": "(81) 98288-4241",
+      "tutor": "José",
+      "vacinado": true,
+      "servicos": []
+    },
+    {
+      "nome": "Jacinta",
+      "tipo": "Cachorro",
+      "idade": 1,
+      "raca": "Vira-lata",
+      "peso": 18,
+      "contato": "(81) 98288-4241",
+      "tutor": "José",
+      "vacinado": true,
+      "servicos": []
+    }
+  ]
+}
