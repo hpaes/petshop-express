@@ -19,6 +19,7 @@ app.post('/pets', (request, response) => {
   };
 
   petshop.adicionarPet(pet);
+  petshop.atualizarBanco();
 
   return response.json(pet);
 });
